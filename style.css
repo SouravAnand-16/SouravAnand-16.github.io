@@ -87,7 +87,7 @@ a:hover{
     margin-top: 20px;
 }
 
-#about .home-img img {
+#about #home-img img {
     width: 250px;
     height: auto; 
     border-radius: 50%;
