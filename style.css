@@ -249,22 +249,3 @@ button {
       width: 20px;
 }
 
-
-@media only screen and (max-width: 768px) {
-    /* Adjust styles for tablet devices */
-    /* For example: */
-    #nav-menu {
-        /* Adjust the layout of your navigation menu for tablet */
-        /* Example: display: block; */
-    }
-    /* Add more styles as needed */
-}
-
-/* Mobile styles */
-@media only screen and (max-width: 576px) {
-    /* Adjust styles for mobile devices */
-    /* For example: */
-    #nav-menu {
-        /* Adjust the layout of your navigation menu for mobile */
-        /* Example: display: block; */
-    }
