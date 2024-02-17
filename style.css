@@ -24,11 +24,11 @@ a,.btn{
 
 /* Desktop */
 
-#nav-menu {
+/* #nav-menu {
     display: flex;
-}
+} */
 
- nav , .nav-links{
+  nav ,.nav-links{
     display: flex;
 }
 nav{
