@@ -398,5 +398,19 @@ article .icon{
   }
   
 
-/*FOOTER */
+/*SKILLS*/
+
+#skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.skills-card-img img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Adjust the space between images */
+}
+
 

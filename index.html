@@ -11,9 +11,9 @@
    
     <nav id="nav-menu">
         <div class="logo">Sourav Anand</div>
-        <div>
+        <div  id="nav-menu">
             <ul class="nav-links">
-                <li><a href="#home" class="nav-link home">Home</a></li>
+                <li><a href="#index.html" class="nav-link home">Home</a></li>
                 <li><a href="#about" class="nav-link about">About</a></li>
                 <li><a href="#skills" class="nav-link skills">Skills</a></li>
                 <li><a href="#projects"  class="nav-link projects">Projects</a></li>
@@ -21,6 +21,10 @@
                 <li><a href="https://drive.google.com/file/d/1Trd1yKz9eM9VFfQuemiyngBhObM2109p/view?usp=sharing"class="nav-link resume">Resume</a></li>
             </ul>
         </div>
+        <div id="resume-button-1" class="btn-container">
+            <button  class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/1Trd1yKz9eM9VFfQuemiyngBhObM2109p/view?usp=sharing')">
+                Download CV
+            </button>
     </nav>
 
     <!-- <nav id="humberg-nav">
@@ -93,112 +97,88 @@
         <img src="./assests/arrow.png" alt="just arrow" class="icon arrow"
           onclick="location.href='./#skills'" >
     </section>
-
-    <section id="skills">
-        <p class="experience_text_p1">Explore my</p>
-        <h1 class="title-exp">Skills</h1>
-        <div class="experience-details-container">
-            <div class="about-container">
-                <div class="details-containers">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assests/checkmark.png" alt="" class="icon">
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assests/checkmark.png" alt="" class="icon">
-                            <div>
-                                <h3>CSS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assests/checkmark.png" alt="" class="icon">
-                            <div>
-                                <h3>Javscript</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assests/checkmark.png" alt="" class="icon">
-                            <div>
-                                <h3>React</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assests/checkmark.png" alt="" class="icon">
-                            <div>
-                                <h3>Material UI</h3>
-                                <p>Basics</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assests/checkmark.png" alt="" class="icon">
-                            <div>
-                                <h3>Boot Strap</h3>
-                                <p>Basics</p>
-                            </div>
-                        </article>
-
-                    </div>
-                </div>
-                <div class="details-containers">
-                    <h2 class="experience-sub-title">Backend Development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assests/checkmark.png" alt="" class="icon">
-                            <div>
-                                <h3>Java</h3>
-                                <p>experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assests/checkmark.png" alt="" class="icon">
-                            <div>
-                                <h3>Spring Boot</h3>
-                                <p>experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assests/checkmark.png" alt="" class="icon">
-                            <div>
-                                <h3>DSA</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assests/checkmark.png" alt="" class="icon">
-                            <div>
-                                <h3>Mongo DB</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assests/checkmark.png" alt="" class="icon">
-                            <div>
-                                <h3>Node js</h3>
-                                <p>Basics</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assests/checkmark.png" alt="" class="icon">
-                            <div>
-                                <h3>Git</h3>
-                                <p>Basics</p>
-                            </div>
-                        </article>
-                    </div>
-                </div>
+    <h1>Top Skills</h1>
+   <section id="skills">
+    <div>Languages
+        <div class="skills-card">
+            <div class="skills-card-img">
+                <img src="./assests/js.jpg" alt="">
             </div>
+            <div class="skills-card-name">Javascript</div>
         </div>
-        <img src="./assests/arrow.png" alt="just arrow" class="icon arrow"
-        onclick="location.href='./#projects'" >
-    </section>
+        <div class="skills-card">
+            <div class="skills-card-img">
+                <img src="./assests//html.png" alt="">
+            </div>
+            <div class="skills-card-name">HTML</div>
+        </div>
+        <div class="skills-card">
+            <div class="skills-card-img">
+                <img src="./assests/css.jpg" alt="">
+            </div>
+            <div class="skills-card-name">CSS</div>
+        </div>
+        <div class="skills-card">
+            <div class="skills-card-img">
+                <img src="./assests/java.png" alt="">
+            </div>
+            <div class="skills-card-name">JAVA</div>
+        </div>
+    </div>
+    <div>Backend
+        <div class="skills-card">
+            <div class="skills-card-img">
+                <img src="./assests/node.png" alt="">
+            </div>
+            <div class="skills-card-name">Node.js</div>
+        </div>
+        <div class="skills-card">
+            <div class="skills-card-img">
+                <img src="./assests/express.png" alt="">
+            </div>
+            <div class="skills-card-name">Express</div>
+        </div>
+        <div class="skills-card">
+            <div class="skills-card-img">
+                <img src="./assests/mongo.svg alt="">
+            </div>
+            <div class="skills-card-name">MongoDB</div>
+        </div>
+        <div class="skills-card">
+            <div class="skills-card-img">
+                <img src="./assests/React.png" alt="">
+            </div>
+            <div class="skills-card-name">JAVA</div>
+        </div>
+    </div>
+    <div>Tools
+        <div class="skills-card">
+            <div class="skills-card-img">
+                <img src="./assests/github.png" alt="">
+            </div>
+            <div class="skills-card-name">Github</div>
+        </div>
+        <div class="skills-card">
+            <div class="skills-card-img">
+                <img src="./assests/React.png" alt="">
+            </div>
+            <div class="skills-card-name">Version Control</div>
+        </div>
+        <div class="skills-card">
+            <div class="skills-card-img">
+                <img src="./assests/vss.jpg alt="">
+            </div>
+            <div class="skills-card-name">VSS Code</div>
+        </div>
+        <div class="skills-card">
+            <div class="skills-card-img">
+                <img src="./assests/mongo.svg" alt="">
+            </div>
+            <div class="skills-card-name">Mongoose</div>
+        </div>
+    </div>
+   </section>
+       
 
     <section id="projects">
         <p class="section_text_p1">Browse My Recent</p>
@@ -237,6 +217,17 @@
                     <div class="btn-container">
                         <button class="project-github-link  btn btn-color-2 " onclick="location.href='https://github.com/SouravAnand-16/Node.js-Projects'">Github</button>
                         <button class="project-deployed-link btn btn-color-2" onclick="location.href='https://github.com/SouravAnand-16/Node.js-Projects'">Various Projects</button>
+                    </div>
+                </div>
+                <div class="project-card  details-container">
+                    <div class="article">
+                        <img src="./assests/travelProject.avif" alt="travel" class="project-img">
+                    </div>
+                    <h2 class="project-title">Globe Glider</h2>
+                    <h6  class="project-tech-stack">Node.js,Express,Javascript,HTML,CSS</h6>
+                    <div class="btn-container">
+                        <button class="project-github-link btn btn-color-2 project-btn" onclick="location.href='https://github.com/Saurabh8657/Team_kushal_koder'">Github</button>
+                        <button class="project-deployed-link btn btn-color-2 project-btn" onclick="location.href='https://team-kushal-koder.vercel.app/'">Deploy Link</button>
                     </div>
                 </div>
             </div>
