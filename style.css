@@ -94,7 +94,7 @@ a:hover{
     margin-right: 20px;
 }
 
-#about #resume-button-2 ,#nav-menu #resume-button-2 {
+#about #resume-button-2 ,#nav-menu #resume-button-2 , #resume #resume-button-1{
     padding: 10px 20px; 
     background-color: #007bff; 
     color: #fff;
@@ -217,4 +217,28 @@ button {
 }
 
 
+/* CONTACT */
 
+.contact-detail {
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+
+#github {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#head {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* RESUME */
+
+#resume {
+    text-align: center;
+}
