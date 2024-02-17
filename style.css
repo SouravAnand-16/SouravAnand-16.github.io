@@ -149,7 +149,7 @@ a:hover{
 }
 
 /* PROJECTS */
-#project {
+#projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
