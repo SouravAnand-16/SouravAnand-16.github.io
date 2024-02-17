@@ -149,7 +149,7 @@ a:hover{
 }
 
 /* PROJECTS */
-#projects {
+#project {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -218,12 +218,14 @@ button {
 
 
 /* CONTACT */
-
-.contact-detail {
-    display: flex;
-   justify-content: space-around;
-    align-items: center;
-    height: 150px;
+#contact {
+    gap: 20px;
+    padding: 10px;
+}
+.contact-detail div {
+   text-align: center;
+   gap: 20px;
+   padding: 10px;
 }
 
 #github {
@@ -241,4 +243,8 @@ button {
 
 #resume {
     text-align: center;
+}
+
+.contact-detail img{
+      width: 20px;
 }
