@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width:1200px) {
-    #desktop-nav{
+    #nav-menu{
         display: none;
     }
     #humberg-nav{

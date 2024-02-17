@@ -312,7 +312,7 @@ article .icon{
     position: relative;
 }
 
-.color-container {
+.project-card {
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
 }
@@ -333,7 +333,7 @@ article .icon{
     columns: black;
 }
 
-.project-btn {
+.project-github-link {
     color: black;
 }
 .section_text_p1, .title{
