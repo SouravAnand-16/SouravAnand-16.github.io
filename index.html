@@ -1,308 +1,713 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YMWDE0VTD3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-YMWDE0VTD3');
+    </script>
+    <meta name="google-site-verification" content="zMNl24ruDnyqiliYwKNU_r09OkPCDKz0kMBtF9nqiCc" />
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000">
+    <meta name="description"
+        content="Sourav | Portfolio, Visit and know about me & my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions.">
+    <meta name="keywords"
+        content="Sourav, Sourav portfolio, Sourav Portfolio, Sourav, Sourav  github, Sourav me, Sourav uiverse, uiverse, Sourav  uiverse, Sourav  Backend developer, Backend developer, Sourav Anand, Sourav Anand">
+    <meta name="author" content="Sourav Anand">
+    <!-- <meta property="og:image" content="https://www.Sourav.me/src/webp/Sourav%20(2).webp"> -->
+    <title>Sourav Anand | Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="src/jpg/Sourav_Passport.jpg">
+    <!-- aos cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- stylesheet -->
     <link rel="stylesheet" href="style.css">
-    <title>Sourav Anand</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps">
+    <!-- google icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
 </head>
-<body>
-     <div id="nav-menu">
-        <div><h1 id="logo">Portfolio</h1></div>
-        <ul id="nav-links">
-            <li><a href="#home" class="nav-link home">Home</a></li>
-            <li ><a href="#about" class="nav-link about">About</a></li>
-            <li><a href="#skills" class="nav-link skills">Skills</a></li>
-            <li ><a href="#projects" class="nav-link projects">Projects</a></li>
-            <li ><a href="#contact" class="nav-link contact">Contact</a></li>
-            <li>
-                <button id="resume-button-1" class="nav-link resume">
-                    <a href="./assests/Sourav-Anand-Resume.pdf" class="button-flex" id="resume-link-1"
-                        target="_blank" download="./assests/Sourav-Anand-Resume.pdf">
-                        <i class="uil uil-download-alt nav_icon"></i> Resume
-                    </a>
-                </button>
-            </li>
-        </ul>
-     </div>
-        
-     <div id="home">
-        <div class="text">
-            <span>S</span>
-            <span>o</span>
-            <span>u</span>
-            <span>r</span>
-            <span>a</span>
-            <span>v</span>
-            <span>&nbsp;</span>
-            <span>A</span>
-            <span>n</span>
-            <span>a</span>
-            <span>n</span>
-            <span>d</span>
-          </div>
-     </div>
 
-     <div id="about" class="about section">
-       <h2 class="about">About</h2>
-      <div id="home-img">
-        <img src="./assests/passport.jpg" alt="" class="home-img">
-      </div>
-      <div>
-        <div id="user-detail-name">
-            <p>Hello , I am </p>
-            <h1>Sourav Anand</h1>
+<body class="body">
+    <noscript>Allow Javascript</noscript>
+    <!-- header Start here -->
+    <header>
+        <div class="nav-link-home" id="nav-menu">
+            <div class="hey">Hey!</div>
+            <div class="logo" tabindex="0" aria-label="Sourav  logo">
+                <div class="logo-top">
+                    <img src="src/png/nav-avatar (1).png" alt="animation-head">
+                    <div class="face">
+                        <div class="eye">
+                            <div class="pupil"></div>
+                        </div>
+                        <div class="eye">
+                            <div class="pupil"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-menu-tabs">
+                <div class="nav-menu-tabs">
+                    <ul class="nav-menu-tabs-ul">
+                        <a href="#home" tabindex="0" aria-label="Home menu button">
+                            <li class="home activeThistab" data-aos="fade-down" data-aos-delay="100">&#60;/Home&#62;
+                            </li>
+                        </a>
+                        <a href="#about" aria-label="about menu button">
+                            <li class="about" data-aos="fade-down" data-aos-delay="300">&#60;/AboutMe&#62;</li>
+                        </a>
+                        <a href="#skills" aria-label="skills menu button">
+                            <li class="skills" data-aos="fade-down" data-aos-delay="500">&#60;/Skills&#62;</li>
+                        </a>
+                        <a href="#projects" aria-label="projects menu button">
+                            <li class="projects" data-aos="fade-down" data-aos-delay="700">&#60;/Projects&#62;</li>
+                        </a>
+                        <a href="#Contact" aria-label="Contact menu button">
+                            <li class="Contact" data-aos="fade-down" data-aos-delay="850">&#60;/Contact&#62;</li>
+                        </a>
+                        <a id="resume-link-2" style="margin-top: 0px" href="./src/pdf/Sourav_Anand_Resume.pdf"
+                            target="_blank" download>
+                            <li id="resume-button-2" class="resume()" data-aos="fade-down" data-aos-delay="1000">
+                                &#60;/Resume&#62;</li>
+                        </a>
+                    </ul>
+                </div>
+            </div><!-- nav-menu tabs ends -->
         </div>
-        <div id="user-detail-intro">
-            <p class="user-intro">Full Stack Web Developer</p>
-            <p>Enthusiastic Full Stack Development graduated from Masai
-                School skilled in HTML , CSS , Javascript, Mongodb ,
-                Node.js. Dedicated to expanding my skills in full stack
-                development, I leverage my 1-year experience at Wipro
-                to bring a solid foundation in Java. Committed to
-                continuous learning and delivering high-quality
-                solutions.</p>
-        </div>
-        <a id="resume-link-2" href="./assests/Sourav-Anand-Resume.pdf" target="_blank" download="./assests/Sourav-Anand-Resume.pdf">
-            <button id="resume-button-2">Download Resume</button>
-        </a>
-      </div>
-     </div>
-     
-     <hr>
+    </header>
+    <!-- header ends here -->
 
-     <div id="skills">
-        <div class="frontend">
-            <h1>Frontend</h1>
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <img src="./assests/js.jpg" alt="javascript">
-                </div>
-                <div class="skills-card-name">
-                    <h5>Javascript</h5>
-                </div>
-            </div>
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <img src="./assests/React.png" alt="javascript">
-                </div>
-                <div class="skills-card-name">
-                    <h5>React</h5>
-                </div>
-            </div>
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <img src="./assests/html.png" alt="javascript">
-                </div>
-                <div class="skills-card-name">
-                    <h5>HTML</h5>
-                </div>
-            </div>
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <img src="./assests/css.jpg" alt="javascript">
-                </div>
-                <div class="skills-card-name">
-                    <h5>CSS</h5>
-                </div>
+    <main>
+        <!-- hamburger signs -->
+        <div class="hamburger" id="hamburger" data-aos="fade">
+            <div class="hamburgerbase">
+                <button id="hamburger-button" onclick="hamburgerMenu()" tabindex="0" aria-label="Menu Button">
+                    <span class="burger-bar" id="burger-bar1"></span>
+                    <span class="burger-bar" id="burger-bar2"></span>
+                    <span class="burger-bar" id="burger-bar3"></span></button>
             </div>
         </div>
-        <div class="Backend">
-            <h1>Backend</h1>
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <img src="./assests/node.png" alt="javascript">
-                </div>
-                <div class="skills-card-name">
-                    <h5>Node.js</h5>
-                </div>
-            </div>
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <img src="./assests/express.png" alt="javascript">
-                </div>
-                <div class="skills-card-name">
-                    <h5>Express</h5>
-                </div>
-            </div>
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <img src="./assests/mongo.svg" alt="javascript">
-                </div>
-                <div class="skills-card-name">
-                    <h5>MongoDB</h5>
-                </div>
-            </div>
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <img src="./assests/java.png" alt="javascript">
-                </div>
-                <div class="skills-card-name">
-                    <h5>Java</h5>
-                </div>
-            </div>
+        <!-- hamburger navbar  --->
+        <div class="mobiletogglemenu" id="mobiletogglemenu">
+            <ul class="mobile-nav-menu-tabs-ul" id="mobile-ul">
+                <a href="#home" tabindex="0" aria-label="Home menu button">
+                    <li id="home-mobile-tab" class="mobile-nav-menu-tabs-li home " onclick="hidemenubyli()">
+                        &#60;/Home&#62;</li>
+                </a>
+                <a href="#about" tabindex="0" aria-label="about menu button">
+                    <li id="aboutme-mobile-tab" class="mobile-nav-menu-tabs-li about" onclick="hidemenubyli()">
+                        &#60;/AboutMe&#62;</li>
+                </a>
+                <a href="#skills" tabindex="0" aria-label="skills menu button">
+                    <li id="skills-mobile-tab" class="mobile-nav-menu-tabs-li skills" onclick="hidemenubyli()">
+                        &#60;/Skills&#62;</li>
+                </a>
+                <a href="#projects" tabindex="0" aria-label="projects menu button">
+                    <li id="projects-mobile-tab" class="mobile-nav-menu-tabs-li projects" onclick="hidemenubyli()">
+                        &#60;/Projects&#62;</li>
+                </a>
+                <a href="#Contact" tabindex="0" aria-label="Contact menu button">
+                    <li id="Contact-mobile-tab" class="mobile-nav-menu-tabs-li Contact" onclick="hidemenubyli()">
+                        &#60;/Contact&#62;</li>
+                </a>
+                <li><a id="Resume" style="color: aliceblue;" href="src/pdf/Sourav_Resumefd.pdf" target="_blank"
+                        class="mobile-nav-menu-tabs-li Resume" download
+                        onclick="window.open('src/pdf/Sourav_resume_.pdf')">&#60;/Resume&#62;</a></li>
+            </ul>
         </div>
-        <div class="Tools">
-            <h1>Tools</h1>
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <img src="./assests/vss.jpg" alt="javascript">
-                </div>
-                <div class="skills-card-name">
-                    <h5>VSS Code</h5>
-                </div>
-            </div>
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <img src="./assests/github.png" alt="javascript">
-                </div>
-                <div class="skills-card-name">
-                    <h5>Github</h5>
-                </div>
-            </div>
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <img src="./assests/mongo.svg" alt="javascript">
-                </div>
-                <div class="skills-card-name">
-                    <h5>Mongoose</h5>
-                </div>
-            </div>
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <img src="./assests/netlify.png" alt="javascript">
-                </div>
-                <div class="skills-card-name">
-                    <h5>Netlify</h5>
-                </div>
-            </div>
-        </div>
-     </div>
-     
-      <hr>
+        <!-- nav-menu tabs ends -->
+        <!-- mobile toggle menu ends -->
 
-     <div id="projects" class="projects">
-        <div class="project-card">
-            <div id="project-card-img">
-                <img src="./assests/globeGlider.png" alt="">
-            </div>
-            <div id="project-card-detail">
-                <h3 class="project-title">Travel Website</h3>
-                <p class="project-description">Our collaborative travel website delivers an immersive planning experience. With secure authentication, personalized profiles, and an intuitive admin dashboard, managing packages is a breeze. Advanced search and sorting options streamline navigation, while optimized frontend ensures performance. Integrated secure payments guarantee a seamless booking process. Explore a world of possibilities with us.</p>
-                <h6 class="project-tech-stack">
-                    Javascript , HTML , CSS , Node.js , Express , MongoDB
-                </h6>
-                <div>
-                    <a href="https://github.com/Saurabh8657/Team_kushal_koder" target="_blank" rel="noopener noreferrer">
-                        <button class="project-github-link">GitHub Link</button>
-                    </a>
-                    <a href="https://team-kushal-koder.vercel.app/" target="_blank" rel="noopener noreferrer">
-                        <button class="project-deployed-link">Deployed Link</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="project-card">
-            <div id="project-card-img">
-                <img src="./assests/Figma.png" alt="">
-            </div>
-            <div id="project-card-detail">
-                <h3 class="project-title">Figma Clone</h3>
-                <p class="project-description">    
-                    Our collaborative web development project stemmed from a meticulously crafted design on Figma. With a strong foundation in HTML, CSS, and JavaScript, our team seamlessly translated the intricate design into a functional and visually appealing website.      
-                    "Our collaborative effort resulted in a seamlessly integrated web solution that not only met but exceeded the expectations set by the Figma design."</p>
-                <h6 class="project-tech-stack">
-                    Javascript , HTML , CSS 
-                </h6>
-                <div>
-                    <a href="https://github.com/ShlokGaikwad/collab_project" target="_blank" rel="noopener noreferrer">
-                        <button class="project-github-link">GitHub Link</button>
-                    </a>
-                    <a href="https://659ad2837ca9a5694687bf26--elegant-arithmetic-94fcef.netlify.app/" target="_blank" rel="noopener noreferrer">
-                        <button class="project-deployed-link">Deployed Link</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="project-card">
-            <div id="project-card-img">
-                <img src="./assests/notes.png" alt="">
-            </div>
-            <div id="project-card-detail">
-                <h3 class="project-title">Note App</h3>
-                <p class="project-description">Streamline your productivity with my secure Note-taking app. Built on Node.js, it features JWT authentication and password hashing for data security. Users enjoy exclusive CRUD functionality for their notes. With an intuitive frontend, organizing and accessing notes is effortless. Elevate your workflow with our efficient and user-friendly solution.</p>
-                <p>Join us on a journey of organization and productivity, where every note is a step towards enhanced efficiency and peace of mind. Experience the simplicity and security of our Note-taking app today.
+        <div class="fakenav-menu"></div>
+        <section class="landing-page-container" id="home">
+            <div class="text-content">
+                <article id="hello-friend" data-aos="fade-up" data-aos-delay="0">
+                    <p class="jello">V</p>
+                    <p class="jello">a</p>
+                    <p class="jello">n</p>
+                    <p class="jello">a</p>
+                    <p class="jello">k</p>
+                    <p class="jello">k</p>
+                    <p class="jello">a</p>
+                    <p class="jello">m</p>
+                    <span>&#128591;</span>
+                    <p class="jello">;</p>&nbsp;<p class="jello">I</p>
+                    <p class="jello">'</p>
+                    <p class="jello">m</p>
+
+                </article>
+                <article id="name" data-aos="fade-up" data-aos-delay="200">
+                    <p class="jello">S</p>
+                    <p class="jello">o</p>
+                    <p class="jello">u</p>
+                    <p class="jello">r</p>
+                    <p class="jello">a</p>
+                    <p class="jello">v</p>&nbsp;
+                    <p class="jello">A</p>
+                    <p class="jello">n</p>
+                    <p class="jello">a</p>
+                    <p class="jello">n</p>
+                    <p class="jello">d</p>
+                </article>
+                <article id="work" data-aos="fade-up" data-aos-delay="400">
+                    <div>
+                        <p class="jello">F</p>
+                        <p class="jello">u</p>
+                        <p class="jello">l</p>
+                        <p class="jello">l</p>&nbsp;
+                        <p class="jello">S</p>
+                        <p class="jello">t</p>
+                        <p class="jello">a</p>
+                        <p class="jello">c</p>
+                        <p class="jello">k</p>
+                    </div>
+                    <div>
+                        <p class="jello">D</p>
+                        <p class="jello">e</p>
+                        <p class="jello">v</p>
+                        <p class="jello">e</p>
+                        <p class="jello">l</p>
+                        <p class="jello">o</p>
+                        <p class="jello">p</p>
+                        <p class="jello">e</p>
+                        <p class="jello">r</p>
+                    </div>
+                </article>
+
+                <p id="info-para" data-aos="fade-up" data-aos-delay="600">Highly skilled and motivated Full Stack
+                    Web
+                    Developer proficient in MERN stack.
+
+                    Proved expertise in successfully building both solo and collaborative projects.
+                    <br>
+                    <br> Possesses strong technical expertise in front-end and back-end development, coupled with
+                    excellent problem-solving and communication skills with 1yr of experience at Wipro.
+                    Ready to contribute to innovative and impactful web development initiatives.<br>
+                    <!-- <br> I value simple content structure, clean design patterns, and thoughtful interactions. -->
                 </p>
-                <h6 class="project-tech-stack">
-                    Javascript , HTML , CSS , Node.js , Express , MongoDB
-                </h6>
-                <div>
-                    <a href="https://github.com/SouravAnand-16/deployed-frontend" target="_blank" rel="noopener noreferrer">
-                        <button class="project-github-link">GitHub Link</button>
-                    </a>
-                    <a href="https://harmonious-biscochitos-18881a.netlify.app/" target="_blank" rel="noopener noreferrer">
-                        <button class="project-deployed-link">Deployed Link</button>
-                    </a>
+
+                <div class="contact-btn-div" data-aos="fade-up" data-aos-delay="800">
+                    <a href="mailto:sauravanand324@gmail.com" tabindex="-1">
+                        <button class="letsTalkBtn">
+                            <p class="letsTalkBtn-text">Let's Connect!</p>
+                            <span class="letsTalkBtn-BG"></span>
+                        </button></a>
+                    <div class="setting-container" id="setting-container">
+                        <input type="checkbox" id="switchforsetting" onclick="settingtoggle()">
+
+                        <label for="switchforsetting" id="labelforsetting" tabindex="0"
+                            aria-label="settings for sound and appearance"></label>
+
+                        <div class="visualmodetogglebuttoncontainer" id="visualmodetogglebuttoncontainer">
+                            <input type="checkbox" id="switchforvisualmode" onclick="visualmode()">
+                            <label for="switchforvisualmode" id="labelforvisualmode" tabindex="0"
+                                aria-label="switch appearance"></label>
+                        </div>
+
+                        <div class="soundtogglebuttoncontainer" id="soundtogglebuttoncontainer">
+                            <input type="checkbox" id="switchforsound" onclick="playpause()">
+                            <label for="switchforsound" id="labelforsound" tabindex="0"
+                                aria-label="switch sound"></label>
+                        </div>
+                    </div><!-- setting div ends -->
+                </div><!-- contact-btn-div -->
+
+
+            </div>
+        </section>
+        <!-- landing page ends here -->
+        <!-- Aboutme section  start  -->
+        <section class="about-section-container" id="about" data-aos="fade-up">
+            <div class="about-section">
+                <div class="about-heading">
+                    <article class="about-heading-article" tabindex="0" aria-label="About me heading">
+                        &#60;/AboutMe&#62;</article>
+                    <p class="aboutsectionHeadingP"></p>
+                </div>
+                <div class="info-dp-section">
+                    <div class="about-info">
+                        <p tabindex="0">
+                            "Hello, I'm Sourav Anand, a dedicated Information Technology graduate from DR BC ROY
+                            Engineering College, Durgapur, West Bengal. I embarked on my professional journey with
+                            Wipro, where I delved into Java development, gaining invaluable experience over the course
+                            of a year. My time at Wipro solidified my understanding of software development principles
+                            and sharpened my problem-solving skills in real-world scenarios.</p> <br>
+                        <p tabindex="0">In parallel, I undertook an intensive 35-week Full Stack Development program at
+                            Masai School, where I immersed myself in 1200 hours of live coding sessions. Complementing
+                            this hands-on experience, I delved into over 500 Data Structures and Algorithms, equipping
+                            myself with a robust technical foundation. Throughout the program, I spearheaded various
+                            individual and collaborative projects, showcasing my ability to thrive in dynamic team
+                            environments while delivering innovative solutions."
+                        </p>
+                        <br>
+                        <p tabindex="0">These days, my main focus is on building interesting and creative web designs. I
+                            enjoy coding things from scratch and bringing ideas to life in the browser.</p>
+
+                    </div>
+
+                    <div class="dp" data-aos="fade-up"><img src="src/jpg/Sourav_Passport.jpg" alt="Sourav " tabindex="0"
+                            aria-label="image of Sourav"></div>
                 </div>
             </div>
-        </div>
-        <div class="project-card">
-            <div id="project-card-img">
-                <img src="./assests/nodeJS.png" alt="">
-            </div>
-            <div id="project-card-detail">
-                <h3 class="project-title">Node.js Projects</h3>
-                <p class="project-description">
-                    Dive into a collection of innovative Node.js projects showcasing versatile applications of web development technologies. From a feature-rich file editor to a robust calculator, each project is crafted with precision and expertise.
-                    Harnessing the power of Express.js, I've implemented JWT authentication and bcrypt hashing to ensure secure access to restricted routes, safeguarding sensitive data and enhancing user privacy.
-                    These projects seamlessly integrate MongoDB Atlas, providing a scalable and reliable database solution for storing and managing user data with ease.</p>
-                <h6 class="project-tech-stack">
-                    Javascript , HTML , CSS , Node.js , Express , MongoDB
-                </h6>
-                <div>
-                    <a href="https://github.com/SouravAnand-16/Node.js-Projects" target="_blank" rel="noopener noreferrer">
-                        <button class="project-github-link">GitHub Link</button>
-                    </a>
-                    <a href="https://lime-gharial-tie.cyclic.app" target="_blank" rel="noopener noreferrer">
-                        <button class="project-deployed-link">Deployed Link</button>
-                    </a>
+        </section>
+        <!-- about me  section ends  -->
+        <!-- Skills section  start  -->
+        <section class="skills-section-container" id="skills">
+            <div class="skills-section">
+                <div class="skills-heading" data-aos="fade-up">
+                    <article class="skills-heading-article" tabindex="0" aria-label="skills heading">
+                        &#60;/Skills&#62;
+                    </article>
+                    <p class="skillssectionHeadingP"></p>
+                </div>
+
+                <div class="Backend-dev-section">
+
+                    <div class="Backend-dev-heading" data-aos="fade-up" tabindex="0"
+                        aria-label="As a Backend a developer these are the skills i have"></div>
+                    <div class="language-speak" data-aos="fade-up">
+                        <article tabindex="0" aria-label="languages i speak below">>_ Frontend:</article>
+                    </div>
+                    <div class="languages-section">
+                        <div class="language-name" data-aos="fade-up" id="html">
+                            <article tabindex="0" aria-label="HTML">HTML</article>
+                            <img src="src/logo-files/html logo.png" alt=""
+                                style="height: 50px;width: 50px ;display: inline-flex;">
+                        </div>
+                        <div class="language-name" data-aos="fade-up" id="css">
+                            <article tabindex="0" aria-label="C S S">CSS</article>
+                            <img src="src/logo-files/css.png" alt=""
+                                style="height: 50px;width: 50px ;display: inline-flex;">
+                        </div>
+                        <div class="language-name" data-aos="fade-up" id="bootstrap">
+                            <article tabindex="0" aria-label="bootstrap">Bootstrap</article>
+                            <img src="src/logo-files/bootstrap-logo.svg" alt=""
+                                style="height: 50px;width: 50px ;display: inline-flex;">
+                        </div>
+                        <div class="language-name" data-aos="fade-up" id="react">
+                            <article tabindex="0" aria-label="React J S">React JS</article>
+                            <img src="src/logo-files/React.png" alt=""
+                                style="height: 50px;width: 50px ;display: inline-flex;">
+                        </div>
+                    </div>
+                </div>
+                <div class="Backend-dev-section">
+
+                    <div class="Backend-dev-heading" data-aos="fade-up" tabindex="0"
+                        aria-label="As a Backend a developer these are the skills i have"></div>
+                    <div class="language-speak" data-aos="fade-up">
+                        <article tabindex="0" aria-label="languages i speak below">>_ Backend:</article>
+                    </div>
+                    <div class="languages-section">
+                        <div class="language-name" data-aos="fade-up" id="JAVASCRIPT">
+                            <article tabindex="0" aria-label="Javascript">Javascript</article>
+                            <img src="src/logo-files/JavaScript-logo.png" alt=""
+                                style="height: 50px;width: 50px ;display: inline-flex;">
+                        </div>
+                        <div class="language-name" data-aos="fade-up" id="JAVA">
+                            <article tabindex="0" aria-label="Javascript">Java</article>
+                            <img src="src/logo-files/java .png" alt=""
+                                style="height: 50px;width: 50px ;display: inline-flex;">
+                        </div>
+                        <div class="language-name" data-aos="fade-up" id="Node js">
+                            <article tabindex="0" aria-label="HTML">Node js</article>
+                            <img src="src/logo-files/node js.png" alt=""
+                                style="height: 50px;width: 80px ;display: inline-flex;">
+                        </div>
+                        <div class="language-name" data-aos="fade-up" id="Node js">
+                            <article tabindex="0" aria-label="HTML">MongoDB</article>
+                            <img src="src/logo-files/mongo.png" alt=""
+                                style="height: 50px;width: 80px ;display: inline-flex;">
+                        </div>
+                        <div class="language-name" data-aos="fade-up" id="Node js">
+                            <article tabindex="0" aria-label="HTML">My Sql</article>
+                            <img src="src/logo-files/sql.png" alt=""
+                                style="height: 50px;width: 80px ;display: inline-flex;">
+                        </div>
+                        <div class="language-name" data-aos="fade-up" id="Node js">
+                            <article tabindex="0" aria-label="HTML">Typescript</article>
+                            <img src="src/logo-files/Typescript_logo_2020.svg.png" alt=""
+                                style="height: 50px;width: 80px ;display: inline-flex;">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="designing-section Backend-dev-section">
+                    <div class="designing-heading Backend-dev-heading" data-aos="fade-up" tabindex="0"
+                        aria-label="as a designer these are the skills i have">Tools</div>
+                    <div class="enjoy-designing language-speak" data-aos="fade-up">
+                        <article> >_ Tools</article>
+                    </div>
+                    <div class="tool-section languages-section">
+                        <div class="tool-name language-name" data-aos="fade-up" id="ap">
+                            <article tabindex="0" aria-label="Adobe Photoshop">Postman</article>
+                            <img src="src/logo-files/postman-icon.webp" alt=""
+                                style="height: 50px;width: 50px ;display: inline-flex;">
+                        </div>
+                        <div class="tool-name language-name" data-aos="fade-up" id="canva">
+                            <article tabindex="0" aria-label="canva">Git</article>
+                            <img src="src/logo-files/GitHub-Mark-ea2971cee799.png" alt=""
+                                style="height: 50px;width: 50px ;display: inline-flex;">
+                        </div>
+                        <div class="tool-name language-name" data-aos="fade-up" id="ai">
+                            <article tabindex="0" aria-label="Adobe illustrator">MongoDB Atlas</article>
+                            <img src="src/logo-files/mongo.png" alt=""
+                                style="height: 50px;width: 50px ;display: inline-flex;">
+                        </div>
+                        <div class="tool-name language-name" data-aos="fade-up" id="FIGMA">
+                            <article tabindex="0" aria-label="Figma">Redis</article>
+                            <img src="src/logo-files/redis.jpg" alt=""
+                                style="height: 50px;width: 50px ;display: inline-flex;">
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
+        <!-- skills section ends -->
+        <!-- Project  section Start  -->
+        <section class="projects-section-container" id="projects">
+            <div class="projects-section-div">
+                <div class="projects-heading">
+                    <article class="projects-heading-article" tabindex="0" aria-label="My projects starts from here">
+                        &#60;/Projects&#62;</article>
+                    <p class="projectsHeadingP"></p>
+                </div>
+                <div class="project-boxes-div">
+
+                    <!-- <a href="https://github.com/SourabhBurman/honest-wing-579" target="_blank"> -->
+                    <div class="project-box project-box1" id="project-box1">
+                        <div class="info-div">
+                            <img src="src/webp/honestwinglogo.png" alt="" class="faviconforProject">
+                            <article class="ProjectHeading">Figma</article>
+                            <p class="ProjectDescription">The Project was about building portfolio and contact
+                                webpages and making them responsive for mobile screens.</p>
+                            <a href="https://figmaforge.netlify.app/" target="_blank">
+                                <button class="cta">
+                                    <span>See the Live Site</span>
+
+                                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                        <path d="M1,5 L11,5"></path>
+                                        <polyline points="8 1 12 5 8 9"></polyline>
+                                    </svg>
+                                </button>
+                            </a>
+                            <a href="https://github.com/SourabhBurman/honest-wing-579" target="_blank">
+                                <button class="ctaspan2">
+                                    <span>See the Code base</span>
+                                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                        <path d="M1,5 L11,5"></path>
+                                        <polyline points="8 1 12 5 8 9"></polyline>
+                                    </svg>
+                                </button>
+                            </a>
+                            <p class="project3" style="color: aliceblue; font-size: 2rem;">Tech Tags : HTML | CSS |
+                                FIGMA |BOOTSTRAP
+                            </p>
+                        </div>
+                        <div class="image-div"><img src="src/webp/honestwing project piv.png" alt=""></div>
+                    </div>
+
+                    <!-- ---------------------- -->
+
+                    <div class="project-box project-box2" id="project-box2">
+                        <div class="info-div">
+                            <img src="src/png/globe_Project.png" alt="" class="faviconforProjectAquaregia">
+                            <article class="ProjectHeading">Globe Glider </article>
+                            <p class="ProjectDescription">Globe Glider is a travel website that offers a seamless
+                                platform for exploring destinations, booking hotels and flights, and connecting
+                                with
+                                a vibrant travel community. Join us to discover the beauty of journeys and make
+                                lasting memories.</p>
+                            <a href="https://team-kushal-koder.vercel.app/" target="_blank">
+                                <button class="cta">
+                                    <span>See the Live Site</span>
+                                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                        <path d="M1,5 L11,5"></path>
+                                        <polyline points="8 1 12 5 8 9"></polyline>
+                                    </svg>
+                                </button>
+                            </a>
+                            <a href="https://github.com/Saurabh8657/Team_kushal_koder" target="_blank">
+                                <button class="ctaspan2">
+                                    <span>See the Code base</span>
+                                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                        <path d="M1,5 L11,5"></path>
+                                        <polyline points="8 1 12 5 8 9"></polyline>
+                                    </svg>
+                                </button>
+                            </a>
+                            <p class="project3" style="color: aliceblue;  font-size: 2rem;">Tech Tags : HTML | CSS |
+                                JAVASCRIPT </p>
+                        </div>
+                        <div class="image-div"><img src="src/png/globe_Project.png" alt=""></div>
+                    </div>
+                    <div class="project-box project-box3" id="project-box3">
+                        <div class="info-div">
+                            <img src="src/png/logogemgarden.jpg" alt="" class="faviconforProject">
+                            <article class="ProjectHeading">GEM GARDEN</article>
+                            <p class="ProjectDescription">Gem Garden, Where elegance meets ease in the realm of
+                                designer jewellery. Immerse yourself in a seamless, visually enchanting
+                                experience
+                                powered by React and adorned with the chic sophistication of Chakra UI.</p>
+                            <a href="https://gem-garden-jewellery.vercel.app/" target="_blank">
+                                <button class="cta">
+                                    <span>See the Live Site</span>
+                                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                        <path d="M1,5 L11,5"></path>
+                                        <polyline points="8 1 12 5 8 9"></polyline>
+                                    </svg>
+                                </button>
+                            </a>
+                            <a href="https://github.com/SourabhBurman/hackathon-hero-3210" target="_blank">
+                                <button class="ctaspan2">
+                                    <span>See the Code base</span>
+                                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                        <path d="M1,5 L11,5"></path>
+                                        <polyline points="8 1 12 5 8 9"></polyline>
+                                    </svg>
+                                </button>
+                            </a>
+                            <p class="project3" style="color: aliceblue;  font-size: 2rem;">Tech Tags : HTML | CSS |
+                                REACT | REDUX | CHAKRA UI </p>
+                        </div>
+                        <div class="image-div"><img src="src/png/gemgarden.png" alt=""></div>
+                    </div>
+
+
+                    <!-- ---------------------- -->
+
+                    <div class="project-box project-box4" id="project-box4">
+                        <div class="info-div">
+                            <img src="src/png/PetPals.png" alt="" class="faviconforProject">
+                            <article class="ProjectHeading">PetPals</article>
+                            <p class="ProjectDescription">Welcome to PetPals, your go-to Pet Adoption Website,
+                                dedicated to facilitating the journey of connecting loving homes with deserving
+                                animals. Our platform is designed to support and empower animal welfare organizations,
+                                ensuring a smooth and caring adoption process.</p>
+                            <a href="https://petpalscare.netlify.app" target="_blank">
+                                <button class="cta">
+                                    <span>See the Live Site</span>
+                                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                        <path d="M1,5 L11,5"></path>
+                                        <polyline points="8 1 12 5 8 9"></polyline>
+                                    </svg>
+                                </button>
+                            </a>
+                            <a href="https://github.com/Souravkkr/PetPals" target="_blank">
+                                <button class="ctaspan2">
+                                    <span>See the Code base</span>
+                                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                        <path d="M1,5 L11,5"></path>
+                                        <polyline points="8 1 12 5 8 9"></polyline>
+                                    </svg>
+                                </button>
+                            </a>
+                            <p class="project3" style="color: aliceblue;  font-size: 2rem;">Tech Tags : HTML | CSS |
+                                REACT JS |NODE JS |MONGODB | EXPRESS JS |REDUX|JSON |CHAKRA-UI </p>
+                        </div>
+                        <div class="image-div"><img src="src/png/PetPals.png" alt=""></div>
+                    </div>
+                    <!-- -------------------------------------------------------------------------------------- -->
+                    <div class="project-box project-box5" id="project-box5">
+                        <div class="info-div">
+                            <img src="src/jpg/Wellness360.jpeg" alt="" class="faviconforProject">
+                            <article class="ProjectHeading">Wellness360</article>
+                            <p class="ProjectDescription">The Personalized Fitness Assistant project utilizes ChatGPT to
+                                provide
+                                tailored workout plans and guidance for individuals aiming at specific fitness goals
+                                such as fat loss, muscle gain, and overall body shaping. The chat-based interaction with
+                                ChatGPT makes the fitness journey more engaging and accessible for users.</p>
+                            <a href="wellness360-one.vercel.app" target="_blank">
+                                <button class="cta">
+                                    <span>See the Live Site</span>
+                                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                        <path d="M1,5 L11,5"></path>
+                                        <polyline points="8 1 12 5 8 9"></polyline>
+                                    </svg>
+                                </button>
+                            </a>
+                            <a href="https://github.com/Souravkkr/Wellness360" target="_blank">
+                                <button class="ctaspan2">
+                                    <span>See the Code base</span>
+                                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                        <path d="M1,5 L11,5"></path>
+                                        <polyline points="8 1 12 5 8 9"></polyline>
+                                    </svg>
+                                </button>
+                            </a>
+                            <p class="project3" style="color: aliceblue;  font-size: 2rem;">Tech Tags : HTML | CSS |
+                                REACT JS |NODE JS | MONGODB |EXPRESS JS |REDUX |JSON |CHAKRA-UI </p>
+                        </div>
+                        <div class="image-div"><img src="src/jpg/Wellness360.jpeg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- GITHUB section start -->
+        <section>
+            <div class="Github-heading">
+                <article class="Github-heading-article" tabindex="0" aria-label="My projects starts from here">
+                    &#60;/Github&#62;</article>
+                <p class="GithubHeadingP"></p>
+            </div>
+            <div id="stats">
+                <!-- <h2 class="title">Github Stats</h2> -->
+                <div id="githubstatsflex">
+                    <div id="statsimg" style="width: 100%; height: 330px; margin-top: 150px;">
+                        <img id="github-top-langs" style="border: 2px solid white; border-radius: 10px;"
+                            src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SouravAnand-16&theme=dark"
+                            alt="err">
+                    </div>
+                    <div id="statsimg1">
+                        <div id="statssecondcolumn">
+                            <img id="github-stats-card" style="border: 2px solid white; border-radius: 10px;"
+                                src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SouravAnand-16&theme=dark"
+                                alt="err">
+                            <img id="github-streak-stats" style="border: 2px solid white; border-radius: 10px;"
+                                src="https://github-readme-streak-stats.herokuapp.com?user=SouravAnand-16&show_icons=true&theme=dark"
+                                alt="err">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="react-activity-calendar"
+                    style="height: 245px; width: 80%; margin: auto; text-align: center; display: flex; justify-content: center;">
+                    <img src="https://ghchart.rshah.org/409ba5/SouravAnand-16" alt="" style="height: 80%; width: 95%;">
+                </div> -->
+            </div>
+        </section>
+        <!-- contact section start -->
+        <section class="Contactsection" id="Contact" data-aos="fade-up">
+            <div class="Contact-heading">
+                <article class="Contact-heading-article" tabindex="0" aria-label="My projects starts from here">
+                    &#60;/Contact&#62;</article>
+                <p class="ContactHeadingP"></p>
+            </div>
+            <div class="max-width">
+                <!-- <h2 class="title">Contact me</h2> -->
+                <div class="Contact-content">
+                    <div class="column left">
+                        <!-- <div class="text">Get in Touch</div> -->
+                        <div class="icons">
+                            <div class="row">
+                                <a href="#"> <i class="fas fa-envelope"></i> </a>
+                                <div class="info">
+                                    <div class="head"></div>
+                                    <div class="sub-title"> <a href="#" id="contact-email"> sauravanand324@gmail.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <a href="https://www.linkedin.com/in/sourav-anand-502694249/" target="_blank"> <i
+                                        class="fab fa-linkedin"></i> </a>
+                                <div class="info">
+                                    <div class="sub-titles"> <a href="https://www.linkedin.com/in/sourav-anand-502694249/"
+                                            id="contact-linkedin" target="_blank">Sourav Anand</a> </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <a href="https://github.com/SouravAnand-16" id="contact-github" target="_blank"> <i
+                                        class="fab fa-github"></i>
+                                </a>
+                                <div class="info">
+                                    <div class="sub-title"> <a href="https://github.com/SouravAnand-16" id="contact-phone"
+                                            target="_blank">Sourav Anand</a> </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <a href="#" id="contact-phone" target="_blank"><i class="fa-solid fa-phone"></i>
+                                </a>
+                                <div class="info">
+                                    <div class="sub-title"> <a href="#" id="contact-phone" target="_blank">
+                                            8292257479</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+    </main>
+
+    <!-- main ends here -->
+
+    <footer>
+
+        <button class="fas" id="backtotopbutton" onclick="scrolltoTopfunction()">
+            <article aria-label="Back to top">&#8592;BACK TO TOP</article>
+        </button>
+        <div class="footercontainer">
+            <div class="two-words">
+                <article tabindex="0" aria-label="Learning, Living, and Leveling Up, my quote"> "Learning , Living,
+                    and
+                    Leveling Up."</article>
+            </div>
+            <div class="social-media-container">
+                <div class="getintouch-heading">
+                    <article>GetinTouch();</article>
+                </div>
+                <div class="logos">
+                    <!-- <a href="https://www.instagram.com/_Sourav_ranga__/?hl=en" target="_blank" tabindex="0"
+                        aria-label="My instagram"><svg viewBox="0 0 448 512" class="SocialHandle">
+                            <path
+                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                        </svg></a> -->
+                    <a href="https://www.linkedin.com/in/sourav-anand-502694249/" target="_blank"
+                        aria-label="My Linkdin"><svg class="SocialHandle" viewBox="0 0 448 512">
+                            <path
+                                d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                        </svg></a>
+                    <a href="https://github.com/SouravAnand-16" target="_blank" aria-label="My github"><svg
+                            viewBox="0 0 496 512" class="SocialHandle">
+                            <path
+                                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                        </svg></a>
+                    <a href="mailto:sauravanand324@gmail.com" target="_blank" aria-label="My G mail"><svg id="GmailLogo"
+                            viewBox="0 0 512 512">
+                            <path
+                                d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+                        </svg></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <article>Design & Built by Sourav Anand <i class="far fa-copyright"></i> 2024</article>
+            </div>
         </div>
-     </div>
 
-     <hr>
-     <div id="github" class="react-activity-calendar">
-        <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=SouravAnand-16" alt="GitHub Streak Stats">
+    </footer>
+    <!-- footer ends here -->
 
-        <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SouravAnand-16" alt="GitHub Top Languages">
-
-        <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api/?username=SouravAnand-16&show_icons=true" alt="GitHub Stats Card">
-    </div>
-
-     <div id="resume">
-        <h4>You can download my resume :</h4>
-     </div>
-      <hr>
-     <div id="contact">
-        <div id="head">
-            <h1>Contacts</h1>
-        </div>
-        <div class="contact-detail">
-            <div id="contact-github">
-                <img src="./assests/github.png" alt="">
-                <a href="https://github.com/SouravAnand-16" target="_blank"  rel="noopener noreferrer">GitHub</a>
-            </div>
-            <div id="contact-linkedin">
-                <img src="./assests/linkedin.png" alt="">
-                <a href="https://www.linkedin.com/in/sourav-anand-502694249/" target="_blank"  rel="noopener noreferrer">LinkedIn</a>
-            </div>
-            <div id="contact-phone">Mob : 8292257479
-            </div>
-            <div  id="contact-email">Email:
-                <a href="mailto:sauravanand324@gamil.com">sauravanand324@gmail.com</a>
-            </div>
-        </div>
-     </div>
 </body>
+
+<script src="main.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<script>
+    function openURL() {
+        var url = "src/pdf/Sourav  Resume.pdf";
+
+        window.open(url, '_blank');
+    }
+</script>
+
 </html>
